@@ -1,0 +1,305 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#443C54"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="166dp"
+        android:layout_height="123dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@drawable/adminlogodashboard" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Profile"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/adminframeadd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/adminframeadd"
+        android:layout_width="363dp"
+        android:layout_height="453dp"
+        android:layout_gravity="center"
+        android:background="@drawable/addaminframe"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669">
+
+
+        <TextView
+            android:id="@+id/contactprofadd"
+            android:layout_width="313dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="248dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="164dp"
+            android:background="@drawable/textholder"
+            android:inputType="phone"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginEnd="258dp"
+            android:layout_marginBottom="204dp"
+            android:text="Contact"
+            android:textColor="@color/white"
+            android:textSize="15dp">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/usernameprofadd"
+            android:layout_width="313dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="159dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="253dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:background="@drawable/textholder">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="134dp"
+            android:layout_marginEnd="259dp"
+            android:layout_marginBottom="299dp"
+            android:text="User Name"
+            android:textColor="@color/white"
+            android:textSize="15dp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/positionforadds"
+            android:layout_width="313dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="335dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="77dp"
+            android:textColor="@color/white"
+            android:background="@drawable/textholder"
+            android:inputType="text">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="315dp"
+            android:layout_marginEnd="256dp"
+            android:layout_marginBottom="118dp"
+            android:text="Position"
+            android:textColor="@color/white"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <Button
+            android:layout_width="253dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="405dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/buttonlogin"
+            android:text="Reset Password">
+        </Button>
+
+        <RelativeLayout
+            android:layout_width="144dp"
+            android:layout_height="117dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="323dp"
+            android:background="@drawable/profileaddholder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.001">
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="97dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginBottom="13dp"
+                app:srcCompat="@drawable/profslogo">
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="98dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginBottom="0dp"
+                android:text="User Name"
+                android:textColor="@color/black">
+
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D9D9D9"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+
+        <RelativeLayout
+            android:id="@+id/home_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/homeadd"
+                android:layout_width="59dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/homelogo" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/feedback_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/feedbackadd"
+                android:layout_width="116dp"
+                android:layout_height="44dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/navigationfeedback"
+                android:scaleType="fitXY" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/profileadd"
+                android:layout_width="55sp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginEnd="27dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/profilelogo" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

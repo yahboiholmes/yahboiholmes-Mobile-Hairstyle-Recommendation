@@ -1,0 +1,116 @@
+<resources>
+
+
+    <string name="app_name">Hairstyle Recommendation</string>
+
+    <color name="gray">#808080</color>
+
+    <string-array name="hair_sizes_array_for_men">
+        <item>Select</item>
+        <item>Short</item>
+        <item>Medium</item>
+    </string-array>
+
+    <string-array name="hair_sizes_array_for_women">
+        <item>Select</item>
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+
+    <string-array name="hair_types_array">
+        <item>Select</item>
+        <item>Thick</item>
+        <item>Thin</item>
+        <item>Curly</item>
+        <item>Wavy</item>
+        <item>Straight</item>
+    </string-array>
+
+    <string-array name="hair_colors_array">
+        <item>Select</item>
+        <item>Black</item>
+        <item>Brown</item>
+    </string-array>
+
+    <string-array name="mens_haircut_array">
+        <item>Select</item>
+        <item>Brushed Back Clean Cut</item>
+        <item>Barbers Cut</item>
+        <item>Clean Cut Hair with a Short Quiff</item>
+        <item>Modern Quiff, Pompadour</item>
+        <item>Modern Crew Trim</item>
+        <item>Short Pompadour with Shaved Sides</item>
+        <item>Faux Hawk</item>
+        <item>Short Textured Hair</item>
+        <item>Disconnected Undercut</item>
+        <item>Slicked-Back</item>
+        <item>Wavy Hair with Shaved Sides</item>
+        <item>Temple Fade with a Thick Top</item>
+        <item>Side Part, Buzz Cut</item>
+        <item>Curled Bangs</item>
+        <item>Easy Comb Over Look</item>
+        <item>Voluminous Comb Over with Fade</item>
+        <item>Mohawk Fade with high skin</item>
+        <item>Military Cut</item>
+        <item>Low Ponytail</item>
+        <item>Long and Straight Hair</item>
+        <item>High Man Ponytail</item>
+        <item>Long hair</item>
+        <item>Long Curly Hair Undercut</item>
+        <item>Half-up Ponytail</item>
+        <item>Man Bun, Messy Curls</item>
+        <item>Surfer Hair</item>
+        <item>Layered Long Hair</item>
+        <item>Low Ponytail</item>
+        <item>Samurai Bun</item>
+        <item>Dip-Dyed Hair</item>
+        <item>Long and Thick Down</item>
+        <item>Half-long</item>
+        <item>Wavy Hair with Fringe</item>
+        <item>Blunt Fringe</item>
+        <item>Half-up Man Bun</item>
+        <item>Messy Ponytail</item>
+        <item>Low Man Bun</item>
+        <item>Wavy Shoulder Length Hair</item>
+    </string-array>
+
+    <string-array name="women_haircut_array">
+        <item>Select</item>
+        <item>classic pixie</item>
+        <item>pixie cut</item>
+        <item>pixie cut with fringe</item>
+        <item>pixie cut with a side fringe</item>
+        <item>bowl cut with blunt bangs</item>
+        <item>side-parted curly pixie cut</item>
+        <item>short straight bob</item>
+        <item>wispy curtain</item>
+        <item>pixie cut with a quiff</item>
+        <item>sleek pixie cut</item>
+        <item>messy fishtail braid</item>
+        <item>messy half-up braid</item>
+        <item>half crown braid</item>
+        <item>long micro braid</item>
+        <item>low messy ponytail</item>
+        <item>long and layered</item>
+        <item>long and wavy</item>
+        <item>long black hair with bangs</item>
+        <item>long curly hair</item>
+        <item>Asteria hair</item>
+        <item>Double braided ponytail</item>
+        <item>sleek and straight hair</item>
+        <item>big top knot</item>
+        <item>triple braid</item>
+        <item>messy side braid</item>
+        <item>Flip Medium bob</item>
+        <item>Blunt Medium bob</item>
+        <item>Blowout bob</item>
+        <item>Sleek and shiny</item>
+        <item>Dyed medium bob</item>
+        <item>Messy layered bob</item>
+        <item>Beach waves with bang</item>
+        <item>Side Sweep</item>
+        <item>Braids for medium bob</item>
+        <item>Half up top knot</item>
+    </string-array>
+</resources>

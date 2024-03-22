@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNETn" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:supportsRtl="true"
+        android:label="Hairstyle Recommendation System"
+        android:theme="@style/Theme.HairstyleRecommendation"
+        tools:ignore="ExtraText"
+        tools:targetApi="31">
+        android:theme="@style/AppTheme"
+
+
+        <activity
+            android:name=".views.admin.AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".views.admin.AdminDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".views.admin.AdminProfile"
+            android:exported="true" />
+        <activity
+            android:name=".views.admin.AdminFeedback"
+            android:exported="true" />
+        <activity
+            android:name=".views.admin.AdminViewUser"
+            android:exported="true" />
+
+        <activity
+            android:name=".views.admin.AdminAdd"
+            android:exported="true" />
+
+
+
+        <activity
+            android:name=".views.user.UserPreferences"
+            android:exported="true" />
+
+        <activity
+            android:name=".views.user.UserVarietyofHairstyleWomenShort"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserVarietyofHairstyleWomenMedium"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserVarietyofHairstyleShortMen"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserVarietyofHairstyleLongMen"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserChoiceMaleFemale"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserChoiceShortLongMale"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserChoiceShortMediumLongFemale"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserAgreement"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserForgotPassword"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserVarietyofHairstyleWomenLong"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserAboutUS"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserEditNumber"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserProfile"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserResetPassword"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserFeedbackView"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserFeedback"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserHistory"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserRecommend"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserCapture"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserProfiling"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserEmailConfirmation"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserEmailVerification"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserRegister"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserLogin"
+            android:exported="true" />
+        <activity
+            android:name=".views.user.UserSplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

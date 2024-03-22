@@ -1,0 +1,15 @@
+<!-- drawable/code_icon_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="32dp"
+android:height="30dp"
+android:viewportWidth="32"
+android:viewportHeight="30"
+    >
+<group>
+    <clip-path
+        android:pathData="M0 0H32V30H0V0Z"
+        />
+</group>
+</vector>

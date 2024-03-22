@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "152457732683",
+    "firebase_url": "https://hairstyledatabase-default-rtdb.firebaseio.com",
+    "project_id": "hairstyledatabase",
+    "storage_bucket": "hairstyledatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152457732683:android:ebdaf32f785bb7d0d0a3ce",
+        "android_client_info": {
+          "package_name": "com.example.hairstylerecommendation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfhLsZblwqYDGb7UVsyVMqmWsokrsaIHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

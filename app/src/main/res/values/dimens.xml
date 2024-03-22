@@ -1,0 +1,4 @@
+<resources>
+    <!-- Define your spacing dimension here -->
+    <dimen name="spacing">8dp</dimen>
+</resources>
